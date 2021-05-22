@@ -243,5 +243,5 @@ mode "$mode_gaps_outer" {
 
 # custom exec
 exec --no-startup-id picom
-exec --no-start-up-id nitrogen --set-auto /root/Downloads/wp7992445.jpg --head=0
+exec --no-start-up-id nitrogen --restore
 
