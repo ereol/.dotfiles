@@ -101,11 +101,9 @@ Generate grub configuration file\
 `$ grub-mkconfig -o /boot/grub/grub.cfg`
 
 Base installation is finished! Now you can unmount and reboot the system.\
-`$ exit
-
+```$ exit
 umount -R /mnt
-
-reboot`
+reboot```
 
 
 
