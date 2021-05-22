@@ -81,11 +81,13 @@ Determine your network interface through\
 `$ ip addr`
 
 Use ens33 for name in next step, vim /etc/systemd/network/20-wired.network/ and add the following\
-`[Match]
+```
+[Match]
 Name=ens33
 
 [Network]
-DHCP=yes`
+DHCP=yes
+```
 
 Set password for 'root' user\
 `$ passwd`
