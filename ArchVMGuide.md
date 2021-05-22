@@ -1,7 +1,7 @@
 # All command lines to install Arch on VM,
 
 Download and use Arch Linux ISO file from torrent through [here](https://archlinux.org/download/). 
-.This is best done following the [Arch Installation Guide.](https://wiki.archlinux.org/title/Installation_guide)
+. This is best done following the [Arch Installation Guide.](https://wiki.archlinux.org/title/Installation_guide)
 
 To turn boot to UEFI, navigate to where the VM is located and add this line to the .vmx file
 ..`firmware = "efi"`
