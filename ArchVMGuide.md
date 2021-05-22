@@ -102,7 +102,9 @@ Generate grub configuration file\
 
 Base installation is finished! Now you can unmount and reboot the system.\
 `$ exit
+
 umount -R /mnt
+
 reboot`
 
 
