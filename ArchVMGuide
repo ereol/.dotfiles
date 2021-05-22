@@ -1,4 +1,0 @@
-#All command lines to install Arch on VM
-
-//To turn boot to UEFI, navigate to where the VM is located and add this line to the .vmx file
-firmware = "efi"
