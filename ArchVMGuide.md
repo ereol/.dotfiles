@@ -1,4 +1,4 @@
-#.All command lines to install Arch on VM,
+# All command lines to install Arch on VM,
 
 Download and use Arch Linux ISO file from torrent through [here](https://archlinux.org/download/). This is best done following the [Arch Installation Guide.](https://wiki.archlinux.org/title/Installation_guide)
 
