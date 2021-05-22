@@ -13,6 +13,8 @@ The rest of the document are fairly straightforward and should be understandable
 `$ ping -c 4 www.google.org`\
 `$ timedatectl set-ntp true`
 
+---
+
 This checks the disk in preparation for partition, ISO will most likely be sr0 or loop0 and disk will be sda with 'x' amount of GB\
 `$ lsblk`
 
@@ -48,6 +50,8 @@ Now we install essentials making up Arch\
  
 After finishing the download (takes a few minutes), create ftsba file so the system knows where to mount the partitions for boot.\
 `$ genfstab -U /mnt >> /mnt/etc/fstab`
+
+---
 
 Now we chroot it\
 `$ arch-chroot /mnt`
@@ -94,6 +98,8 @@ Set password for 'root' user\
 
 If using intel, install Intel-microcode\
 `$ pacman -S intel-ucode`
+
+---
 
 The final step is installing bootloader. Grub will be used here\
 `$ pacman -S grub efibootmgr`
