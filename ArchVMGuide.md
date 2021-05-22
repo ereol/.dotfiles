@@ -58,7 +58,7 @@ Now we customise our localisation settings, An example is `ln -sf /usr/share/zon
 Now we install vim via pacman\
 `$ pacman -S vim`
 
-Now you vim `/etc/locale.gen` and uncomment any locale needed to use. An example is en_AU.UTF-8 UTF-8. Then generate locale using this command\
+Now you vim `/etc/locale.gen` and uncomment any locale needed to use. An example is `en_AU.UTF-8 UTF-8`. Then generate locale using this command\
 `$ locale-gen`
 
 Now create `locale.conf` and set up language by adding such as en_AU.UTF-8 UTF-8\
