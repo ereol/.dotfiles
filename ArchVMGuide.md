@@ -67,7 +67,8 @@ Now create `locale.conf` and set up language by adding such as en_AU.UTF-8 UTF-8
 Now vim into `/etc/hostname` and add desired hostname, hostname is computer name for clarification.
 
 Next, edit `/etc/hosts` file with chosen hostname. Entries should be similar to this\
-```127.0.0.1   localhost
+```
+127.0.0.1   localhost
 ::1         localhost
 127.0.1.1   archvm.localdomain  archvm
 ```
